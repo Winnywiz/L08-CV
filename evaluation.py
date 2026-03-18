@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("yolo11n.pt")
+model = YOLO("best.pt")
 
 metrics = model.val(
     data="dataset/data.yaml",
